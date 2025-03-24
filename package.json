@@ -1,0 +1,27 @@
+{
+  "name": "react-component-library",
+  "version": "1.0.0",
+  "description": "React component library for commonly used UI elements.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vishalpalaniappan/react-component-library.git"
+  },
+  "author": "Vishal Palaniappan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vishalpalaniappan/react-component-library/issues"
+  },
+  "homepage": "https://github.com/vishalpalaniappan/react-component-library#readme",
+  "devDependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}
