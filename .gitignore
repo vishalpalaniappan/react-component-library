@@ -3,3 +3,4 @@ package-lock.json
 *storybook.log
 .storybook
 storybook-static
+dist

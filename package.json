@@ -1,12 +1,14 @@
 {
-  "name": "react-component-library",
-  "version": "1.0.0",
-  "description": "React component library for commonly used UI elements.",
-  "main": "index.js",
+  "name": "asp-react-component-library",
+  "version": "0.0.1",
+  "description": "Personal library of react components.",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "build": "rollup -c"
   },
   "repository": {
     "type": "git",
@@ -19,7 +21,14 @@
   },
   "homepage": "https://github.com/vishalpalaniappan/react-component-library#readme",
   "devDependencies": {
+    "@babel/core": "^7.26.10",
+    "@babel/preset-env": "^7.26.9",
+    "@babel/preset-react": "^7.26.3",
     "@chromatic-com/storybook": "^3.2.6",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^28.0.3",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-terser": "^0.4.4",
     "@storybook/addon-essentials": "^8.6.8",
     "@storybook/addon-interactions": "^8.6.8",
     "@storybook/addon-onboarding": "^8.6.8",
@@ -31,6 +40,9 @@
     "prop-types": "^15.8.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "rollup": "^4.37.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
     "storybook": "^8.6.8"
   },
   "peerDependencies": {
