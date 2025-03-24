@@ -1,3 +1,7 @@
+import "./Sample.scss";
+
 export const Sample = ({title}) => {
-    return <>{title}</>;
+    return <>
+        <span className="test">{title}</span>
+    </>;
 }
