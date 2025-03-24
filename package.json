@@ -14,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vishalpalaniappan/react-component-library.git"
+    "url": "git+https://github.com/vishalpalaniappan/asp-ui-component-library.git"
   },
   "author": "Vishal Palaniappan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vishalpalaniappan/react-component-library/issues"
+    "url": "https://github.com/vishalpalaniappan/asp-ui-component-library/issues"
   },
-  "homepage": "https://github.com/vishalpalaniappan/react-component-library",
+  "homepage": "https://github.com/vishalpalaniappan/asp-ui-component-library",
   "devDependencies": {
     "@babel/core": "^7.26.10",
     "@babel/preset-env": "^7.26.9",
