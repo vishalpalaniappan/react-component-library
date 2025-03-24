@@ -1,7 +1,7 @@
 {
   "name": "asp-react-component-library",
   "version": "0.0.1",
-  "description": "Personal library of react components.",
+  "description": "Library of react components used in ASP libraries.",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "scripts": {
