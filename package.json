@@ -8,7 +8,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "predeploy": "npm run build-storybook",
+    "deploy-storybook": "gh-pages -d storybook-static"
   },
   "repository": {
     "type": "git",
@@ -19,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/vishalpalaniappan/react-component-library/issues"
   },
-  "homepage": "https://github.com/vishalpalaniappan/react-component-library#readme",
+  "homepage": "https://github.com/vishalpalaniappan/react-component-library",
   "devDependencies": {
     "@babel/core": "^7.26.10",
     "@babel/preset-env": "^7.26.9",
@@ -39,6 +41,7 @@
     "@storybook/react-webpack5": "^8.6.8",
     "@storybook/test": "^8.6.8",
     "css-loader": "^7.1.2",
+    "gh-pages": "^6.3.0",
     "prop-types": "^15.8.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
