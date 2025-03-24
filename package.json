@@ -1,5 +1,5 @@
 {
-  "name": "asp-react-component-library",
+  "name": "asp-ui-component-library",
   "version": "0.0.1",
   "description": "Library of react components used in ASP libraries.",
   "main": "dist/cjs/index.js",
