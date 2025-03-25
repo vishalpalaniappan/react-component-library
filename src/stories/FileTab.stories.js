@@ -3,9 +3,13 @@ import { FileTabs } from "../components/FileTabs";
 export default {
     title: 'Components/FileTabs', 
     component: FileTabs, 
-    args: { title: "FileTabs"}
+    render: ({...args }) => (
+        <div style={{height: "50px"}}>
+            <FileTabs {...args} />
+        </div>
+    ),
 };
 
 export const Tabs = {
-    args: {title: "FileTabs Variation"}
-} 
+    args: { tabs: ["main.py", "CollectVariables.py", "injector.py"]}
+}   
