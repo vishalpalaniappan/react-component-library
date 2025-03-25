@@ -1,7 +1,7 @@
 {
   "name": "asp-ui-component-library",
   "version": "0.0.1",
-  "description": "Library of react components used in ASP libraries.",
+  "description": "Library of react UI components across multiple applications.",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "scripts": {
