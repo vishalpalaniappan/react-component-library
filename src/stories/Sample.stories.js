@@ -1,7 +1,7 @@
 import { Sample } from "../components/Sample";
 
 export default {
-    title: 'Example/Sample', 
+    title: 'Components/Sample', 
     component: Sample, 
     args: { title: "default title"}
 };
